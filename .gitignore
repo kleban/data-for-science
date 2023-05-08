@@ -1,2 +1,5 @@
 
 renv/
+.Rproj.user
+
+/.quarto/
