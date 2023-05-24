@@ -4,12 +4,12 @@
     "href": "index.html",
     "title": "data-for-science",
     "section": "",
-    "text": "This is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\nlibrary(dplyr)\n\nWarning: package 'dplyr' was built under R version 4.2.3\n\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\n1 + 1\n\n[1] 2"
+    "text": "This is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "1  Introduction",
+    "title": "Introduction",
     "section": "",
     "text": "See Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   },
@@ -18,12 +18,12 @@
     "href": "16-quarto-new-document.html",
     "title": "Налаштування",
     "section": "",
-    "text": "Зверніть увагу, що у випадку додавання нового пакету для роботи його варто також додати у список renv Ushey (2023):\n\nrenv::snapshot()\n\n\n\n\n\nUshey, Kevin. 2023. Renv: Project Environments. https://CRAN.R-project.org/package=renv."
+    "text": "Щоб активувати нове середовище варто скористатися командою renv::activate().\nЗверніть увагу, що у випадку додавання нового пакету для роботи його варто також додати у список renv Ushey (2023):\n\nrenv::snapshot()\n\n\n\n\n\nUshey, Kevin. 2023. Renv: Project Environments. https://CRAN.R-project.org/package=renv."
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "2  Summary",
+    "title": "1  Summary",
     "section": "",
     "text": "1 + 1\n\n[1] 2"
   },
