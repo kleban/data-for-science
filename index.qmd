@@ -1,3 +1,9 @@
+---
+author: "Юрій Клебан"
+date: "`r Sys.Date()`"
+date-format: short
+---
+
 # Preface {.unnumbered}
 
 This is a Quarto book.

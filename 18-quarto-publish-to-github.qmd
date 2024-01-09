@@ -16,7 +16,9 @@ project:
   output-dir: docs
 ```
 
+Publish book
 
+got to https://<username>.github.io/<repository-name>/
 
 Зверніть увагу, що у випадку додавання нового пакету для роботи його варто також додати у список `renv` @renv-package:
 

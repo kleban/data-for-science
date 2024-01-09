@@ -3,23 +3,60 @@ project:
   output-dir: docs
 
 book:
-  title: "data-for-science"
-  author: "Jane Doe"
-  date: "5/2/2023"
+  title: "Основи роботи з даними для наукових досліджень"
+  subtitle: "Набір матеріалів для навчання роботи з даними"
+  author: "Юрій Клебан"
+  date: "`r Sys.Date()`"
+  date-format: short
+  google-analytics: ""
+  сover-image: img/cover.png
+  site-url: https://kleban.github.io/data-for-science/
+  repo-url: https://github.com/kleban/data-for-science/
+  repo-branch: main
+  sharing: [twitter, facebook, linkedin]
+  favicon: img/favicon.png
   chapters:
     - index.qmd
-    - intro.qmd
+    - syllabus.qmd
+    - part: "Вступ до курсу"
+    - part: "Вивчення та очистка даних"
+    - part: "Основи візуалізації даних"
+    - part: "Публікація результатів досліджень"
+      chapters:
+        - 071-what-is-qaurto.qmd
+        - 07X-how-to-quarto.qmd
     - 16-quarto-new-document.qmd
     - summary.qmd
     - references.qmd
+page-navigation: true
+page-footer: "&copy; 2023 Юрій Клебан"
+
+language: _language-ua.yml
 
 bibliography: references.bib
 
 format:
   html:
     theme: cosmo
+    cover-image: img/cover.png
+    code-link: true
+    css: css/style.css
+    number-sections: true
+    toc: true
+    highlight-style: github
+    code-line-numbers: true
   pdf:
     documentclass: scrreprt
+    toc: true
+    number-sections: true
+    colorlinks: true
+
+crossref:
+  tbl-title: 'Таблиця'
+  lst-title: 'Лістинг'
+  fig-title: 'Рис.'
+  fig-labels: arabic
+  title-delim: "."
 
 editor: visual
 

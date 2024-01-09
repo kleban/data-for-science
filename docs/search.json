@@ -2,28 +2,56 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "data-for-science",
+    "title": "Основи роботи з даними для наукових досліджень",
     "section": "",
     "text": "This is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "Introduction",
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Силабус",
     "section": "",
-    "text": "See Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "Основи роботи з даними для наукових досліджень"
+  },
+  {
+    "objectID": "syllabus.html#опис-курсу",
+    "href": "syllabus.html#опис-курсу",
+    "title": "Силабус",
+    "section": "Опис курсу",
+    "text": "Опис курсу\nThis is a Quarto book.\nМетою навчального курсу є засовєння базових навичок збору, очистки, аналізу даних для наукових досліджень.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "071-what-is-qaurto.html",
+    "href": "071-what-is-qaurto.html",
+    "title": "\n1  Що таке Quarto?\n",
+    "section": "",
+    "text": "За допомогою Quarto можна виконувати наступні дії:\n\nПисати код за допомогою Jupyter Notebook-ів або розмітки звичайного тексту (markdown) у вашому улюбленому редакторі.\nСтворювати динамічний вміст за допомогою Python, R, Julia та Observable.\nПублікувати якісні статті, презентації, веб-сайти, блоги та книги у форматах HTML, PDF, MS Word, ePub тощо.\nПишіть за допомогою розмітки Pandoc, включаючи формули, цитати, перехресні посилання, фігури, блок-схеми, виноски тощо.\n\nРозробники Quarto користуються наступними слоганами:\n\nАналізуйте. Поділіться. Відтворіть.\nУ вас є історія, яку можна розповісти за допомогою даних — розкажіть це за допомогою Quarto.\n\nQuarto — це багатомовна версія наступного покоління R Markdown від Posit із багатьма новими функціями та можливостями. Подібно до R Markdown, Quarto використовує knitr для виконання R-коду, і тому може відтворювати більшість існуючих файлів Rmd без змін.\n\n\n\n\n\n\nNote\n\n\n\nЗверніть увагу, що Ви можете конвертувати у порібний формат як Jupyter Notebook, так і Markdown файли."
+  },
+  {
+    "objectID": "07X-how-to-quarto.html",
+    "href": "07X-how-to-quarto.html",
+    "title": "\n2  Правила оформлення розмітки\n",
+    "section": "",
+    "text": "Виноски є хорошим спосбом звернути увагу читачів на деякий контент. Зокрема, Ви можете скористатися 5-ма стилями для виносок за замовчуванням: note, warning, important, tip, caution (Quarto: Quarto 2023).\nКолір та іконка будуть різнитися, залежно від типу виноски, яку ви обрали. Розглянемо приклади коду та зовнішній вигляд таких компонентів.\nТак, наприклад, нотатки (note) будуть візуалізовані наступним кодом:\n::: {.callout-note}\nЗверніть увагу, що Ви можете використовувати:\n`note`, `warning`, `important`, `tip`, and `caution`.\n:::\nРезультат:\n\n\n\n\n\n\nNote\n\n\n\nЗверніть увагу, що Ви можете використовувати: note, warning, important, tip, and caution.\n\n\nРозглянемо для прикладу поради (tip):\n::: {.callout-tip}\n## Заголовок поради\n\nВиноски варто використовувати під ча соформлення сайтів, електронних книг.\n:::\nКод із заголовком як параметер:\n::: {.callout-tip title=\"Tip with Title\"}\n## Заголовок поради\n\nВиноски варто використовувати під ча соформлення сайтів, електронних книг.\n:::\nРезультат у обох випадках виглядатиме однаково:\n\n\n\n\n\n\nЗаголовок поради\n\n\n\nВиноски варто використовувати під ча соформлення сайтів, електронних книг.\n\n\nІншою корисною функцією може бути згортання/розгортання виносок для економії місця на дисплеї. Це робиться за допомогою параметра collapse=\"true\":\n::: {.callout-caution collapse=\"true\"}\n## Приклад коду, що згортається\n\nА тут текст :)\n:::\n\n\n\n\n\n\nПриклад коду, що згортається\n\n\n\n\n\nА тут текст :)\n\n\n\nДтеальніше з інформацією про оформлення виносок можна ознайомитися на сайті Quarto: Quarto (2023) у розділі “Виноски” https://quarto.org/docs/authoring/callouts.html.\n\n\n\n\nQuarto: Quarto. 2023. https://quarto.org."
   },
   {
     "objectID": "16-quarto-new-document.html",
     "href": "16-quarto-new-document.html",
     "title": "Налаштування",
     "section": "",
-    "text": "Щоб активувати нове середовище варто скористатися командою renv::activate().\nЗверніть увагу, що у випадку додавання нового пакету для роботи його варто також додати у список renv Ushey (2023):\n\nrenv::snapshot()\n\n\n\n\n\nUshey, Kevin. 2023. Renv: Project Environments. https://CRAN.R-project.org/package=renv."
+    "text": "Для початку"
+  },
+  {
+    "objectID": "16-quarto-new-document.html#ааа",
+    "href": "16-quarto-new-document.html#ааа",
+    "title": "Налаштування",
+    "section": "ааа",
+    "text": "ааа\nЩоб активувати нове середовище варто скористатися командою renv::activate().\nЗверніть увагу, що у випадку додавання нового пакету для роботи його варто також додати у список renv Ushey (2023):\n\nrenv::snapshot()\n\n\n\n\n\nUshey, Kevin. 2023. Renv: Project Environments. https://CRAN.R-project.org/package=renv."
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "1  Summary",
+    "title": "\n3  Summary\n",
     "section": "",
     "text": "1 + 1\n\n[1] 2"
   },
@@ -32,6 +60,6 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\nUshey, Kevin. 2023. Renv: Project Environments. https://CRAN.R-project.org/package=renv."
+    "text": "Quarto: Quarto. 2023. https://quarto.org.\n\n\nUshey, Kevin. 2023. Renv: Project Environments. https://CRAN.R-project.org/package=renv."
   }
 ]
